@@ -9,7 +9,7 @@ export default defineConfig({
   ],
   server: {
     proxy: {
-      "/api/": "http://localhost:5000",
+      "/api/": "https://rithi-ecommerce-backend.onrender.com",
       "/uploads/": "http://localhost:5000",
     },
   },
